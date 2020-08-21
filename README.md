@@ -1,1 +1,1 @@
-# my_ml_tmva
+Here you can see some examples of my TMVA ROOT (ROOT is https://root.cern and TMVA is http://tmva.sourceforge.net) codes, that I have in work on high energy physics (hep). Sorry for these files. They are not sorted and processed yet.
