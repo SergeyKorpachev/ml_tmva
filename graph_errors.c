@@ -226,7 +226,7 @@ void graph_errors() {
    bgr = new TGraphErrors( n, energy, ratio, energyerror, ratio_error_stat );
    bgr->GetYaxis()->SetTitle("( E_{reco} - E_{true} ) / E_{true}");
    bgr->GetXaxis()->SetTitle("E_{true}, GeV");
-   cgr = new TGraphErrors( n, energy2, ratio2, energyerror2, ratio_error_stat2 );
+   cgr = new TGraphErrors( n, energy2, ratio2, energyerror2, ratio_error_sys2 ); //stat2 ???
    cgr->GetYaxis()->SetTitle("( E_{reco} - E_{true} ) / E_{true}");
    cgr->GetXaxis()->SetTitle("E_{true}, GeV");
    dgr = new TGraphErrors( n, energy2, ratio2, energyerror2, ratio_error_stat2 );
